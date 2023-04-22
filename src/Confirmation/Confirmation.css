@@ -1,0 +1,33 @@
+.detail{
+    border: 2px solid black;
+    margin: 1.5rem 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.detail p{
+    font-size: 1.15rem;
+    margin-bottom: 2px;
+}
+
+.detail p span{
+    font-weight: bold;
+}
+
+.thanks{
+    font-size: 1.5rem;
+}
+
+.ok-btn{
+    margin-top: 1.5rem;
+    width: 4.5rem;
+    height: 1.7rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width:479px){
+    .thanks{
+        font-size: 1.3rem;
+    }
+}

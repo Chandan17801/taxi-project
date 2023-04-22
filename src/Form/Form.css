@@ -1,0 +1,41 @@
+.form {
+    display: grid;
+    grid-template-columns: 350px;
+}
+
+input{
+    height: 1.3rem;
+}
+
+.form label{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 9px 0;
+}
+  
+.form button{
+    margin-top: 1rem;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 2rem;
+    width: 171px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.form button.disabled{
+    background-color: #999;
+    cursor: not-allowed;
+}
+
+@media (max-width:479px){
+    .form{
+        width: 300px;
+        grid-template-columns: 290px;
+    }
+
+    .form button{
+        width: 140px;
+    }
+}
